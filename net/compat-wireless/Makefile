@@ -64,7 +64,7 @@ CFLAGS += \
 
 # These exported as they are used by the scripts
 # to check config and compat autoconf
-export COMPAT_CONFIG=config.mk
+export COMPAT_CONFIG=../../../../../../kernel/sony/u8500/net/compat-wireless/config.mk
 export CONFIG_CHECK=.$(COMPAT_CONFIG)_md5sum.txt
 export COMPAT_AUTOCONF=include/linux/compat_autoconf.h
 export CREL=$(shell cat $(PWD)/compat_version)
